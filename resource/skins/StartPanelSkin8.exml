@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StartPanelSkin8" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="t1" x="0" y="0" source="bg_jpg"/>
+	<e:Image source="p8_1" x="0" y="0"/>
+	<e:Image id="t2" source="p8_2" horizontalCenter="0" bottom="36"/>
+	<e:Label id="lbl0" text="姓名" x="58" y="264" fontFamily="微软雅黑" textColor="0xA4A4A4"/>
+	<e:Label y="732" textColor="0xA4A4A4" text="学校" fontFamily="微软雅黑" x="61" id="lbl1"/>
+	<e:Label y="497" textColor="0xA4A4A4" text="专业" fontFamily="微软雅黑" x="58" id="lbl2"/>
+	<e:Label y="617" textColor="0xA4A4A4" text="年级" fontFamily="微软雅黑" x="58" id="lbl3"/>
+	<e:Label y="384" textColor="0xA4A4A4" text="手机号码" fontFamily="微软雅黑" x="62" id="lbl4"/>
+	<e:EditableText id="txtTel" y="378" textColor="0x000000" text="" fontFamily="微软雅黑" width="507" height="44" x="58"/>
+	<e:EditableText id="txtYear" y="616" textColor="0x000000" text="" fontFamily="微软雅黑" width="507" height="44" x="57"/>
+	<e:EditableText id="txtSkill" y="501" textColor="0x000000" text="" fontFamily="微软雅黑" width="507" height="44" x="57"/>
+	<e:EditableText id="txtSchool" y="729" textColor="0x000000" text="" fontFamily="微软雅黑" width="507" height="44" x="60"/>
+	<e:EditableText id="txtName" width="507" height="43" text="" x="57" y="262" textColor="0x000000" fontFamily="微软雅黑"/>
+</e:Skin>

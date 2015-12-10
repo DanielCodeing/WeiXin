@@ -1,0 +1,7 @@
+{"file":"assets.png","frames":{
+"btnGo":{"x":1,"y":1584,"w":527,"h":222,"offX":0,"offY":0,"sourceW":527,"sourceH":222},
+"btnStop":{"x":1,"y":1808,"w":209,"h":189,"offX":0,"offY":0,"sourceW":209,"sourceH":189},
+"c360":{"x":1,"y":1139,"w":574,"h":443,"offX":0,"offY":0,"sourceW":574,"sourceH":443},
+"mask":{"x":1,"y":1,"w":640,"h":1136,"offX":0,"offY":0,"sourceW":640,"sourceH":1136},
+"share":{"x":643,"y":1,"w":640,"h":1136,"offX":0,"offY":0,"sourceW":640,"sourceH":1136},
+"start":{"x":1285,"y":1,"w":640,"h":1136,"offX":0,"offY":0,"sourceW":640,"sourceH":1136}}}

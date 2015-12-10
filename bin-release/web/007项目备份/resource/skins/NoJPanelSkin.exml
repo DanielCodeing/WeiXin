@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="NoJPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="telbg" x="0" y="0"/>
+	<e:Image source="share1" x="131" y="20"/>
+</e:Skin>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="WarkJPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="submitbg" x="0" y="0"/>
+	<e:EditableText id="txtName" width="349" height="36" x="188" y="549"/>
+	<e:EditableText id="txtAddress" width="349" y="682" height="36" x="185"/>
+	<e:EditableText id="txtTel" x="186" width="349" y="614" height="43"/>
+	<e:Image id="btnSubmit" source="btnSubmit" y="850" horizontalCenter="0"/>
+	<e:Image id="jiang" source="mingpian" x="91" y="299"/>
+</e:Skin>

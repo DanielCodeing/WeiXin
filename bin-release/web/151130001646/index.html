@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>练成基金经理的正确姿势</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="true"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #FFFFFF;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+
+    <!--这个标签为通过egret提供的第三方库的方式生成的 javascript 文件-->
+    <!--modules_files_start-->
+	<script egret="lib" src="libs/modules/egret/egret.min.js"></script>
+	<script egret="lib" src="libs/modules/egret/egret.web.min.js"></script>
+	<script egret="lib" src="libs/modules/eui/eui.min.js"></script>
+	<script egret="lib" src="libs/modules/res/res.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.min.js"></script>
+	<script egret="lib" src="libs/modules/game/game.web.min.js"></script>
+	<script egret="lib" src="libs/modules/socket/socket.min.js"></script>
+	<script egret="lib" src="libs/modules/tween/tween.min.js"></script>
+	<!--modules_files_end-->
+
+    <!--这个标签为不通过egret提供的第三方库的方式使用的 javascript 文件，请将这些文件放在libs下，但不要放在modules下面。-->
+    <!--other_libs_files_start-->
+    <script egret="lib" src="libs/weixin/weixin.min.js"></script>
+    <script egret="lib" src="libs/weixin/jweixin-1.0.0.js"></script>
+    <!--other_libs_files_end-->
+
+    <!--这个标签会被替换为项目中所有的 javascript 文件-->
+    <!--game_files_start-->
+	<script src="main.min.js"></script>
+	<!--game_files_end-->
+</head>
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" id="gameDiv"
+         data-entry-class="Main"
+         data-orientation="auto"
+         data-scale-mode="exactFit"
+         data-resolution-mode="retina"
+         data-frame-rate="30"
+         data-content-width="640"
+         data-content-height="1008"
+         data-show-paint-rect="false"
+         data-multi-fingered="2"
+         data-show-fps="false" data-show-log="false"
+         data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+    </div>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script type="text/javascript" src="http://tarsocial.oss-cn-hangzhou.aliyuncs.com/tarsocial-monitor-v1002.js"></script>
+    <script>
+    egret.runEgret();
+var userinfo = [];  //默认为空; 注意:如需监控openid、昵称、头像等信息,则需要将微信网页授权接口返回的JSON串写入[]中。
+tar.config({
+            tar_debug:false,                      //选填，debug模式：值为true开启，默认关闭。
+		    tar_token:"TpwGxKS51lmSmK%2Blr%2Fd4oZSjcPeiXJ8",   //必填，监测系统分配给此次监测活动的token
+		    tar_tid: "102910"    //必填，监测系统分配给此次监测活动的id
+	       },userinfo);
+function setWxConfig(signPackage)
+{
+wx.config({
+        appId: signPackage.appId,  //必填,公众号的唯一标识
+        timestamp: signPackage.timestamp,             //必填,生成签名的时间戳
+        nonceStr:  signPackage.nonceStr,             //必填,生成签名的随机串
+        signature: signPackage.signature,             //必填,签名,见 http://t.cn/RL24Fgw
+        jsApiList: [
+            "getNetworkType",
+			"getLocation",
+			"onMenuShareTimeline",
+			"onMenuShareAppMessage",
+			"onMenuShareQQ",
+			"onMenuShareWeibo",
+			"onMenuShareQZone"//如业务需求，可继续加入其他微信JS接口
+        ]
+});
+}
+function setShare(title,desc,imgurl,link)
+{
+wx.ready(function () {
+		var shareData64 = {
+      		  title: title,                         //必填,分享标题
+      		  desc: desc,                          //选填,分享描述
+              imgUrl: imgurl,                        //选填,分享图片
+              link:link, //必填,可跟get参数,禁止直接使用location.href
+              success: function () { 
+               // 用户确认分享后执行的回调函数
+              },
+              cancel: function () { 
+               // 用户取消分享后执行的回调函数
+              }
+		};
+    wx.onMenuShareAppMessage(tar.shapeShareAppMessage(shareData64));
+    wx.onMenuShareTimeline(tar.shapeShareTimeline(shareData64));
+});
+}
+    </script>
+</body>
+</html>

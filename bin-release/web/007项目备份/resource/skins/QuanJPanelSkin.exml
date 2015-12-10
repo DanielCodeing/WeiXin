@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="QuanJPanelSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="moviebg" x="0" y="0"/>
+	<e:Label id="txtQuan" x="98" y="472" width="437" fontFamily="微软雅黑" size="30" height="38"/>
+	<e:Label id="txtMi" y="603" size="30" fontFamily="微软雅黑" width="437" height="38" x="97"/>
+	<e:Image source="share1" x="133" y="18"/>
+</e:Skin>

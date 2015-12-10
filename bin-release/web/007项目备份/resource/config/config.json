@@ -1,0 +1,16 @@
+{ 
+"data":
+{ 
+"getinfourl":"http://www.91qutui.com/b007/oauth2_openid.php?code=", 
+"turnurl":"http://www.91qutui.com/b007/turn2.php?openid=", 
+"link":"http://www.91qutui.com/b007/index.html?openid=",
+"shareurl":"http://www.91qutui.com/b007/json.php",
+"imgurl":"http://www.91qutui.com/b007/icon.jpg",
+"title1":"抓到邦德，我送你电影票 ",
+"des1":"抓到邦德，我送你电影票 ",
+"title2":"抓到邦德，我送你电影票 ",
+"des2":"抓到邦德，我送你电影票 ",
+"title3":"我在抓捕邦德的任务中得到了",
+"title3_1":"分，你也快来，有电影票领！"
+}
+}

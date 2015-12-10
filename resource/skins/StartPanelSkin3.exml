@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StartPanelSkin3" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="bg_jpg"/>
+	<e:Image id="t1" source="p3_2" y="597" horizontalCenter="0" visible="false"/>
+	<e:Image id="t2" source="p3_3" y="834" horizontalCenter="0" visible="false"/>
+	<e:Image id="p4_3" source="g3_1_1" x="329" y="387" visible="false"/>
+	<e:Image id="p4_1" source="g3_1_2" x="326" y="622" visible="false"/>
+	<e:Image id="p4_2" source="g3_1_3" x="551" y="541" visible="false"/>
+	<e:Image id="p3_3" source="g3_2_1" x="125" y="390" visible="false"/>
+	<e:Image id="p3_1" source="g3_2_2" x="126" y="566" visible="false"/>
+	<e:Image id="p3_2" source="g3_2_3" x="96" y="481" visible="false"/>
+	<e:Image id="p1_3" source="g3_3_1" x="102" y="86" visible="false"/>
+	<e:Image id="p1_1" source="g3_3_2" x="104" y="42" visible="false"/>
+	<e:Image id="p1_2" source="g3_3_3" x="66" y="81" visible="false"/>
+	<e:Image id="p2_3" source="g3_4_1" x="358" y="131" visible="false"/>
+	<e:Image id="p2_1" source="g3_4_2" x="360" y="95" visible="false"/>
+	<e:Image id="p2_2" source="g3_4_3" x="364" y="171" rotation="180" visible="false"/>
+	<e:Image id="p1" source="assets2_json.g33" x="179" y="305" visible="false"/>
+</e:Skin>

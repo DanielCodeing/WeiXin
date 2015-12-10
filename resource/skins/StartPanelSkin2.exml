@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StartPanelSkin2" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_jpg" x="0" y="0"/>
+	<e:Image id="t1" source="p2_2" x="81" y="117" visible="false"/>
+	<e:Image id="t2" source="p2_1" x="485" y="84" visible="false"/>
+	<e:Image id="t6" source="p2_6" y="323" horizontalCenter="0" visible="false"/>
+	<e:Image id="t5" source="p2_3" x="471" y="213" visible="false"/>
+	<e:Image id="t4" source="p2_4" x="275" y="218" visible="false"/>
+	<e:Image id="t3" source="p2_5" x="68" y="216" visible="false"/>
+	<e:Image id="t7" source="p2_7" x="189" y="494" visible="false"/>
+	<e:Image id="t8" source="p2_9" x="170" y="462" visible="false"/>
+	<e:Image id="t9" source="p2_10" x="166" y="461" visible="false"/>
+	<e:Image id="t10" source="p2_8" x="192" y="514" visible="false"/>
+</e:Skin>

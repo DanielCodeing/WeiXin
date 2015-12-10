@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StartPanelSkin4" width="640" height="1008" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" source="bg_jpg"/>
+	<e:Image id="t1" source="p4_1" y="126" horizontalCenter="0"/>
+	<e:Image id="t2" source="p4_2" y="213" horizontalCenter="0"/>
+	<e:Image id="t4" source="p4_3" x="296" y="565"/>
+	<e:Image id="t3" source="p4_4" x="104" y="660"/>
+</e:Skin>

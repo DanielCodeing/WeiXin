@@ -1,0 +1,13 @@
+{
+  "skins": {},
+  "exmls": [
+    "resource/skins/StartPanelSkin.exml",
+    "resource/skins/StartPanelSkin2.exml",
+    "resource/skins/StartPanelSkin3.exml",
+    "resource/skins/StartPanelSkin4.exml",
+    "resource/skins/StartPanelSkin5.exml",
+    "resource/skins/StartPanelSkin6.exml",
+    "resource/skins/StartPanelSkin7.exml",
+    "resource/skins/StartPanelSkin8.exml"
+  ]
+}

@@ -1,0 +1,16 @@
+{ 
+"data":
+{ 
+"getinfourl":"http://www.prepart.cn/html5/fdt/oauth2_openid.php?code=", 
+"turnurl":"http://www.prepart.cn/html5/fdt/turn2.php?openid=", 
+"link":"http://www.prepart.cn/html5/fdt/index.html?openid=",
+"shareurl":"http://www.prepart.cn/html5/fdt/json.php",
+"imgurl":"http://www.prepart.cn/html5/fdt/icon.png",
+"title1":"速速报名抢票！基金经理养成记之浙大行！",
+"des1":"速速报名抢票！基金经理养成记之浙大行！",
+"title2":"速速报名抢票！基金经理养成记之浙大行！",
+"des2":"速速报名抢票！基金经理养成记之浙大行！",
+"title3":"速速报名抢票！基金经理养成记之浙大行！",
+"title3_1":"速速报名抢票！基金经理养成记之浙大行！"
+}
+}
